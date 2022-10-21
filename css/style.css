@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #EAA636;
-    --secondary: #545454;
+    --primary: #F2911B;
+    --secondary: #03A6A6;
     --light: #FDF5EB;
-    --dark: #1E1916;
+    --dark: #020A52;
 }
 
 h4,
@@ -151,7 +151,7 @@ h6,
     left: 0;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .75);
 }
 
 @media (max-width: 768px) {
@@ -209,7 +209,7 @@ h6,
 
 .page-header {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .85)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
